@@ -114,13 +114,15 @@ $(document).ready(function () {
 <li>Identify a recommender system website.</li>
 </ol>
 <div id="solution">
-<p><a href>Strava</a> is viewed by many as the premier social network for athletes. Strava has a very strong user base of athletes at every level, primarily runners and cyclists. Users are able to compare their performance on a specific geographic route against athletes all over the world. A recommender system called Pace Match has been developed to allow users to find similar athletes. This system is located at <a href="http://www.pacematch.com" class="uri">http://www.pacematch.com</a>. “It’s like a recommendation engine from Netflix or Amazon - but instead of movies or products, it recommends who from Strava to connect with,” developer Becky Jaimes explains.</p>
+<p><a href="https://www.strava.com/">Strava</a> is viewed by many as the premier social network for athletes. Strava has a very strong user base of millions of athletes at every level, primarily runners and cyclists. Users are able to compare their performance on a specific geographic route against athletes all over the world. A recommender system called Pace Match has been developed to allow users to find similar athletes on Strava.</p>
+<p>This system is located at <a href="http://www.pacematch.com" class="uri">http://www.pacematch.com</a>.</p>
+<p>“It’s like a recommendation engine from Netflix or Amazon - but instead of movies or products, it recommends who from Strava to connect with,” developer Becky Jaimes explains.</p>
 </div>
 <ol start="2" style="list-style-type: decimal">
 <li>Who are the target users?</li>
 </ol>
 <div id="solution">
-<p>Strava’s target users are runners, walkers, cyclists, and triathletes of any age that are looking to connect and compare their performances against other athletes.</p>
+<p>Strava’s target users are runners, walkers, cyclists, and triathletes of any age that are looking to connect and/or compare their performances against other athletes.</p>
 </div>
 <ol start="3" style="list-style-type: decimal">
 <li>What are their key goals?</li>
@@ -135,22 +137,31 @@ $(document).ready(function () {
 <li>How can you help them accomplish those goals?</li>
 </ol>
 <div id="solution">
-<p>Strava is already the premier social network for athletes, but that doesn’t mean that there is no room for improvement of network size and user experience. There are two main things preventing users from accessing strava:</p>
-<p><strong>Supported Devices</strong> Strava should actively work to support the most popular devices (sensors, phones, tablets, etc). Having to purchase new equipment for the sole purposes of using Strava may be a deterrent to potential users.</p>
-<p><strong>Privacy/Security Issues</strong> Having a major social component that is based on location, Strava inherently suffers from privacy concerns of both users and potential users. Strava should have their security and privay settings more prominent and transparent so allow users that are not tech savvy to easily locate and digest this information.</p>
-<p><strong>Offline Support</strong> All of Strava’s key functionalities are only available online. Users should have the ability to access a portion of their historical data locally on their devices and be able to perform basic analysis.</p>
+<p>Strava is already the premier social network for athletes, but that doesn’t mean that there is no room for improvement in terms of network size and user experience. There are some issues that are potentially blocking users from Strava:</p>
+<p><strong>Supported Devices:</strong> Strava should actively work to support the most popular devices (sensors, phones, tablets, etc). Having to purchase new equipment for the sole purposes of using Strava may be a deterrent to potential users.</p>
+<p><strong>Privacy/Security Issues:</strong> Having a major social component that is based on location, Strava inherently suffers from privacy concerns of both users and potential users. Strava should have their security and privay settings more prominent and transparent to allow users that are not tech savvy to easily locate and digest this information.</p>
+<p><strong>Offline Support:</strong> All of Strava’s key functionalities are only available online. Users should have the ability to access a portion of their historical data locally on their devices and be able to perform basic analysis.</p>
 </div>
 <ol start="5" style="list-style-type: decimal">
 <li>Attempt to reverse engineer what you can about the site, from the site interface and any available information that you can find on the Internet or elsewhere.</li>
 </ol>
 <div id="solution">
-<p>The recommender system accesses public data such as username, location, and data from activities such as pace, elevation, and lat-long. and find other athletes who have matched another athletes pace a few times on any course visited by these athletes.</p>
+<p>The recommender system accesses public data such as username, location, and data from activities such as pace, elevation, and lat-long, and find other athletes who have matched another athletes pace a few times on any course visited by these athletes.</p>
 </div>
 <ol start="6" style="list-style-type: decimal">
 <li>Include specific recommendations about how to improve the site’s recommendation capabilities going forward.</li>
 </ol>
 <div id="solution">
-
+<p>I believe the recommendation system built for Strava would be greatly improved if it takes into consideration the full scope of Stava’s key goals. Which goes beyond simply connecting users with similar traits/abilities.</p>
+<p>For example, an athlete may want to train with other athletes of similar abilities if they are looking to maintain current performance without over-exertion on a given day. An athlete looking improve his/her performance would plan days of very high intensity work, it would be more helpful to train with athletes with greater abilities on such days. An athlete looking for recover from previous day(s) of high intensity training may find it more useful to train with atheletes with lesser abilities to avoid over-exhertion. The solution here would be to recommend athletes based on ones training schedule or the likelyhood of doing low,medium, or high intensity work on a given day.</p>
+<p>It would also be useful to allow users to filter athletes based on preferred intensity workouts on a given day.</p>
+</div>
+<ol start="7" style="list-style-type: decimal">
+<li>Sources?</li>
+</ol>
+<div id="solution">
+<p><strong>Strava- <a href="https://www.strava.com/" class="uri">https://www.strava.com/</a></strong></p>
+<p><strong>Pace Match- <a href="http://www.pacematch.com" class="uri">http://www.pacematch.com</a></strong></p>
 </div>
 
 
