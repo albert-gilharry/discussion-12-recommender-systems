@@ -1,0 +1,85 @@
+---
+title: 'Discussion 12:  Recommender Systems'
+author: "Albert Gilharry"
+date: "17 April 2018"
+output:
+  html_document:
+    css: ./css.css
+    highlight: pygments
+    pdf_document: default
+    theme: cerulean
+    toc: yes
+  pdf_document:
+    toc: yes
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Identify a recommender system website.
+
+<div id = "solution">
+[Strava]() is viewed by many as the premier social network for athletes. Strava has a very strong user base of athletes at every level, primarily runners and cyclists. Users are able to compare their performance on a specific geographic route against athletes all over the world. A recommender system called Pace Match has been developed to allow users to find similar athletes. This system is located at [http://www.pacematch.com](http://www.pacematch.com). "It's like a recommendation engine from Netflix or Amazon - but instead of movies or products, it recommends who from Strava to connect with," developer Becky Jaimes explains.
+</div>
+
+2. Who are the target users?
+
+<div id = "solution">
+
+Strava's target users are runners, walkers, cyclists, and triathletes of any age that are looking to connect and compare their performances against other athletes.
+
+</div>
+
+3.  What are their key goals?
+
+<div id = "solution">
+
+Their key goals are to unite athletes based on the camaraderie of sport, and to unlock the potential of individuals and communities looking to improve their performance(s). These goals are acheived by 3 main features:
+
+  -Track & Analyze
+  
+  -Share & Connect
+  
+  -Explore & Compete
+  
+</div>
+
+4. How can you help them accomplish those goals?
+
+<div id = "solution">
+
+Strava is already the premier social network for athletes, but that doesn't mean that there is no room for improvement of network size and user experience. There are two main things preventing users from accessing strava:
+
+**Supported Devices**
+Strava should actively work to support the most popular devices (sensors, phones, tablets, etc). Having to purchase new equipment for the sole purposes of using Strava may be a deterrent to potential users.
+
+**Privacy/Security Issues**
+Having a major social component that is based on location, Strava inherently suffers from privacy concerns of both users and potential users. Strava should have their security and privay settings more prominent and transparent so allow users that are not tech savvy to easily locate and digest this information.
+
+**Offline Support**
+All of Strava's key functionalities are only available online. Users should have the ability to access a portion of their historical data locally on their devices and be able to perform basic analysis.
+</div>
+
+5. Attempt to reverse engineer what you can about the site, from the site interface and any available information that you can find on the Internet or elsewhere.
+
+<div id = "solution">
+The recommender system accesses public data such as username, location, and data from activities such as pace, elevation, and lat-long.  and find other athletes who have matched another athletes pace a few times on any course visited by these athletes.
+</div>
+
+6. Include specific recommendations about how to improve the site's recommendation capabilities going forward. 
+
+<div id = "solution">
+
+</div>
+
+
+
+
+
+
+
+
+
+
