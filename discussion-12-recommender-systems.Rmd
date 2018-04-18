@@ -3,13 +3,13 @@ title: 'Discussion 12:  Recommender Systems'
 author: "Albert Gilharry"
 date: "17 April 2018"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     css: ./css.css
     highlight: pygments
     pdf_document: default
     theme: cerulean
+    toc: yes
+  pdf_document:
     toc: yes
 always_allow_html: yes
 ---
